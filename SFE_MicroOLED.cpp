@@ -103,7 +103,7 @@ void MicroOLED::init(int spi_mode, int spi_freq)
 	rstPin = 0;						// Bring RST low, reset the display
 	ThisThread::sleep_for(10ms);	// wait 10ms
 	rstPin = 1;						// Set RST HIGH, bring out of reset
-	wait_ms(5);						// wait 5ms
+	ThisThread::sleep_for((5ms);	// wait 5ms
 
 	// Display Init sequence for 64x48 OLED module
 	command(DISPLAYOFF);				// 0xAE
