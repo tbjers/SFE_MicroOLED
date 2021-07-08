@@ -1,6 +1,6 @@
 # SFE_MicroOLED for mbed OS 6
 
-Driver and Graphics library for MicroOLED 0.66" (64 x 48 pixel) display with SSD1306 controller. Display can be obtained from Sparkfun or from diverse Chinese sellers (similar displays) via Aliexpress. Display is driven via SPI. The library can be very easily adapted to other OLED displays (up to 128 x 64 pixel) with SSD1306 controller by setting defines and changing controller init commands accordingly.
+Driver and Graphics library for MicroOLED 0.66" (64x48 pixels) display with SSD1306 controller. Display can be obtained from Sparkfun or from diverse Chinese sellers (similar displays) via Aliexpress. Display is driven via SPI. The library can be very easily adapted to other OLED displays (up to 128x64 pixel) with SSD1306 controller by setting defines and changing controller init commands accordingly.
 
 Small test-program that briefly shows the basic usage of the library:
 
